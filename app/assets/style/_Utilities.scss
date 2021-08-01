@@ -1,0 +1,157 @@
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+
+}
+
+.pb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.pt-40 {
+    padding-bottom: 40px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.ml-150 {
+    margin-left: 150px;
+}
+
+.mt-52 {
+    margin-top: 52px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.color_red700 {
+    color: var(--red700);
+}
+
+.color_black {
+    color: var(--black);
+
+}
+
+.color_gary700 {
+    color: var(--gray700);
+
+}
+.fa_isun {
+  background-image: url(/assets/images/icon-sun.svg);
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+
+.fa_ithunder {
+  background-image: url(/assets/images/icon-thunder.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+   background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.fa_iphone {
+  background-image: url(/assets/images/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+
+}
+
+.fa_imail {
+  background-image: url(/assets/images/icon-mail.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16px;
+
+}
+
+@media(max-width: 768px){
+    .md-pt-40{
+        padding-top: 40px;
+    }
+    .md-pb-24{
+        padding-bottom: 24px;
+
+    }
+    .md-pt-40{
+        padding-top: 40px;
+    }
+    .md-pt-32{
+        padding-top: 32px;
+    }
+     .fa_iphone{
+         background-size: 18px 18px;
+
+     }
+     .fa_imail{
+         background-size: 18px 18px;
+
+     }
+  }
+  @media(max-width:414px){
+      .ms-pt-0{
+          padding-top: 0;
+      }
+      .ms-pt-20{
+          padding-top: 20px;
+      }
+      .ms-pb-20{
+          padding-bottom: 20px;
+      }
+      .ms-mb-20{
+          margin-bottom: 20px;
+      }
+      .fa_iphone{
+          margin-right: 0;
+      }
+      .fa_imail{
+          margin-right: 0; 
+          padding-bottom: 16px;
+      }
+  }

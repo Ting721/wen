@@ -1,23 +1,392 @@
-$color: #00cc99;
+@import "reset";
+@import "variable";
+@import "Utilities";
+@import "layout";
 
-.header {
-  height: 200px;
-  background-color: #00cc99;
+.container {
+  clear: both;
+  width: 100%;
+  padding-top: 108px;
+  margin: 0 auto;
 }
 
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.banner {
+  position: relative;
   display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.title {
+  position: absolute;
+  color: var(--red700);
+  margin-right: 10%;
+  text-align: right;
+}
+.item-group {
+  display: inline-flex;
+  width: 70%;
+  margin-top: 1vh;
+}
+
+.item {
+  width: 23.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.item-group img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+.item-group p {
+  text-align: left;
+  margin-top: 8px;
+}
+
+.contain {
+  margin: 0 auto;
+  font-size: 0;
+  background-color: var(--red100);
+  color: var(--red700);
+  font-weight: 600;
+  text-align: center;
+}
+
+.contain-white {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card_group {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 32px;
+  justify-content: space-evenly;
+}
+
+.card_group img {
+  width: 57%;
+  display: block;
+}
+
+.card_group a {
+  font-family: var(--font-family-Roboto);
+  font-size: 2.75vw;
+  color: var(--red300);
+  text-decoration: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.card_group a:nth-child(odd) {
+  margin-left: 6vw;
+}
+
+.card_group a :hover {
+  background-color: var(--red100);
+}
+
+.container_bg {
+  position: relative;
+}
+
+.banner_design {
+  // background-image: url(/app/assets/images/bg.png);
+  width: 100%;
+  height: 60.5vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.banner_design img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.banner_design h2 {
+  position: absolute;
+  margin-top: 1vh;
+  color: var(--white);
+}
+
+.banner_group {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 0;
+}
+
+.banner_group span {
+  font-size: 3.86vw;
+  color: var(--red300);
+  font-family: var(--font-family-Roboto);
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.banner_group img {
+  width: 80.4%;
+  object-fit: cover;
+  filter: saturate(0.5);
+  mix-blend-mode: screen;
+}
+
+.banner_item {
+  width: 70%;
+  display: flex;
+  position: absolute;
+  top: 24%;
+  left: 14%;
+}
+
+.opacity {
+  background: var(--white);
+  height: 100%;
+}
+
+.card_sever_group {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.card {
+  width: 25%;
+  margin: 15px;
+  background-color: var(--white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  text-align: left;
+  padding: 1rem;
+  color: var(--black);
+}
+
+.card img {
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+}
+
+.text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: var(--red100);
+}
+.submit {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+input[type="submit"] {
+  background-color: var(--red300);
+  color: white;
+  padding: 16px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  // width: 350px;
+  display: block;
+  margin-top: 40px;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--red700);
+}
+
+.input_text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 24px;
+}
+
+label {
+  font-size: 0.8rem;
+  color: var(--black);
+  font-weight: 200;
+}
+
+.container_form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    max-width: 768px;
+    height: 840px;
+  }
+  .item-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .item {
+    width: 45.5%;
+    margin-bottom: 2rem;
+  }
+
+  .card_group a {
+    font-size: 1.75rem;
+  }
+  .banner_design {
+    //  width: 768px;
+    height: 452px;
+  }
+  .banner_design h2 {
+    margin-top: 40px;
+  }
+  .banner_group img {
+    //  width: 330px;
+    height: 278px;
+  }
+  .banner_item {
+    width: 100%;
+    justify-content: space-around;
+    left: 0;
+  }
+  .card_sever_group {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 330px;
+  }
+
+  .ig img {
+    width: 24px;
+    height: 24px;
+    padding-left: 20px;
+  }
+  .product li {
+    margin-right: 40px;
+  }
+  .message {
+    width: 90%;
+  }
+  .card_group {
+    width: 90%;
+  }
+  .md-card_group {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+  }
+  .card_group a:nth-child(odd) {
+    margin-left: 0;
+  }
+  .submit {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+    padding-top: 140px;
+  }
+
+  .banner {
+    height: 394px;
+  }
+
+  .item-group {
+    display: inline;
+  }
+  .item {
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  .card_group a {
+    position: absolute;
+    width: 90%;
+    justify-content: center;
+  }
+  .card_group img {
+    width: 95%;
+  }
+  .banner_design {
+    height: 719px;
+  }
+  .banner_item {
+    flex-direction: column;
+    top: 12%;
+  }
+  .banner_group img {
+    height: 291px;
+  }
+  .opacity {
+    margin-bottom: 20px;
+  }
+  .banner_group span {
+    font-size: 2rem;
+  }
+  .input_text {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .submit {
+    padding-left: 47px;
+  }
+  .product li {
+    display: none;
+  }
+  .product .ig {
+    display: block;
+    float: right;
+  }
+  .message {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
