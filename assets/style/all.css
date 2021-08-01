@@ -238,7 +238,7 @@ p {
   color: var(--gray700); }
 
 .fa_isun {
-  background-image: url(/assets/images/icon-sun.svg);
+  background-image: url(../images/icon-sun.svg);
   background-size: 36px 36px;
   width: 36px;
   height: 36px;
@@ -247,7 +247,7 @@ p {
   margin-right: 10px; }
 
 .fa_ithunder {
-  background-image: url(/assets/images/icon-thunder.svg);
+  background-image: url(../images/icon-thunder.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 36px 36px;
@@ -258,7 +258,7 @@ p {
   margin-right: 10px; }
 
 .fa_iphone {
-  background-image: url(/assets/images/icon-phone.svg);
+  background-image: url(../images/icon-phone.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 36px 36px;
@@ -269,7 +269,7 @@ p {
   margin-right: 16px; }
 
 .fa_imail {
-  background-image: url(/assets/images/icon-mail.svg);
+  background-image: url(../images/icon-mail.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 36px 36px;
