@@ -398,6 +398,12 @@ p {
     font-size: 1.25rem;
     font-weight: 100; } }
 
+@media (max-width: 631px) {
+  .menu a {
+    padding: 0 0; }
+  .product li {
+    margin-right: 22px; } }
+
 @media (max-width: 414px) {
   .menu {
     padding-top: 10px;
@@ -696,10 +702,11 @@ textarea {
 input[type="submit"] {
   background-color: var(--red300);
   color: white;
-  padding: 16px 60px;
+  padding: 16px 58px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 100%;
   display: block;
   margin-top: 40px; }
 
@@ -790,9 +797,7 @@ label {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; }
   .card_group a:nth-child(odd) {
-    margin-left: 0; }
-  .submit {
-    margin-left: 5%; } }
+    margin-left: 0; } }
 
 @media (max-width: 414px) {
   .container {
