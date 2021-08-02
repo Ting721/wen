@@ -1,0 +1,33 @@
+.product-menu a{
+  color: var(--black);
+  text-decoration: none;
+  padding: 10px 5px;
+  font-family: var( --font-family-Roboto);
+  vertical-align:middle;
+ 
+
+ 
+}
+.product-menu li{
+display: inline;      
+   
+}
+
+.product-menu{
+   
+    text-align: center;
+    
+}
+.menu-li{
+      display: inline-block;
+      height: 88px;
+      position: relative;
+}
+.menu-li :hover ::before{
+       position: absolute;
+       content: '';
+       width: 300px;
+       background-color: bisque;
+      border-bottom: 8px solid var(--red300);
+
+}

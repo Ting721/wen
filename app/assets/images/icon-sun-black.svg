@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><defs><style>.a{stroke:#000;stroke-width:2px;}</style></defs><g transform="translate(1 1)"><path class="a" d="M25,38A13,13,0,1,0,12,25,13.015,13.015,0,0,0,25,38Zm0-24A11,11,0,1,1,14,25,11.013,11.013,0,0,1,25,14Z" transform="translate(-1 -1)"/><rect class="a" width="2" height="7" transform="translate(23)"/><rect class="a" width="2" height="7" transform="translate(23 41)"/><rect class="a" width="7" height="2" transform="translate(41 23)"/><rect class="a" width="7" height="2" transform="translate(0 23)"/><rect class="a" width="7" height="2" transform="translate(35.315 11.274) rotate(-45)"/><rect class="a" width="7" height="2" transform="translate(6.321 40.265) rotate(-45)"/><rect class="a" width="2" height="7" transform="translate(35.313 36.727) rotate(-45)"/><rect class="a" width="2" height="7" transform="translate(6.322 7.736) rotate(-45)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="44" height="44" fill="#fff"/>
+    <g id="组_2" data-name="组 2" transform="translate(-3 -3)">
+      <path id="路径_4" data-name="路径 4" d="M25,38A13,13,0,1,0,12,25,13,13,0,0,0,25,38Zm0-24A11,11,0,1,1,14,25,11,11,0,0,1,25,14Z" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_1" data-name="矩形 1" width="2" height="7" transform="translate(24 1)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_2" data-name="矩形 2" width="2" height="7" transform="translate(24 42)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_3" data-name="矩形 3" width="7" height="2" transform="translate(42 24)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_4" data-name="矩形 4" width="7" height="2" transform="translate(1 24)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_5" data-name="矩形 5" width="7" height="2" transform="translate(36.315 12.274) rotate(-45)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_6" data-name="矩形 6" width="7" height="2" transform="translate(7.321 41.265) rotate(-45)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_7" data-name="矩形 7" width="2" height="7" transform="translate(36.313 37.727) rotate(-45)" stroke="#000" stroke-width="2"/>
+      <rect id="矩形_8" data-name="矩形 8" width="2" height="7" transform="translate(7.322 8.736) rotate(-45)" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

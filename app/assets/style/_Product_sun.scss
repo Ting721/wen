@@ -1,0 +1,124 @@
+.product-menu a {
+    color: var(--black);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-family: var(--font-family-Roboto);
+}
+.product-menu img {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.product-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-menu li {
+    width: 370px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+}
+.product-menu li:hover {
+    border-bottom: 8px solid var(--red300);
+    box-sizing: border-box;
+}
+.product-menu li :active {
+    color: var(--red300);
+}
+.optical-banner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.banner-img {
+    width: calc(100vw / 2);
+}
+.optical-banner {
+    display: flex;
+    text-align: center;
+}
+.celluloid-box{
+    text-align: center;
+    padding-top: 80px;
+}
+.celluloid-product-group{
+    padding-top: 40px;
+    width: 70%;
+}
+.color-box-1{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #5F3E2D;
+   
+}
+.color-box-2{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #B75929;
+   
+}
+.celluloid-item h4{ 
+   
+    
+    
+}
+.celluloid-product img{
+    width: 282px;
+}
+.celluloid-product{
+    max-width: 282px;
+    margin-top: 20px;
+    margin-bottom: 104px;
+   
+}
+.box span{
+    margin-right: 8px;
+  
+}
+.celluloid-item{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+   display: flex;
+  
+ 
+}
+.celluloid-product-group{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pagination{
+    display: inline-block;
+    padding: 0;
+    margin: 0;  
+    margin-bottom:120px ;
+
+}
+.pagination li{
+    display: inline;
+}
+.pagination li a {
+    color: #555555;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition:background-color .3s;
+     border: 1px solid #555555;
+}
+.pagination li a.active{
+    background-color: #000000;
+    color: #fff;
+    border: 1 px solid  #555555;
+
+}

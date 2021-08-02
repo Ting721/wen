@@ -8,7 +8,6 @@
 
 .mb-32 {
     margin-bottom: 32px;
-
 }
 
 .pb-8 {
@@ -53,105 +52,117 @@
 
 .color_black {
     color: var(--black);
-
 }
 
 .color_gary700 {
     color: var(--gray700);
-
 }
 .fa_isun {
-  background-image: url(../images/icon-sun.svg);
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-
+    background-image: url(../images/icon-sun.svg);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 
 .fa_ithunder {
-  background-image: url(../images/icon-thunder.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-   background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
+    background-image: url(../images/icon-thunder.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-
 .fa_iphone {
-  background-image: url(../images/icon-phone.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 16px;
-
+    background-image: url(../images/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
 }
 
 .fa_imail {
-  background-image: url(../images/icon-mail.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 16px;
-
+    background-image: url(../images/icon-mail.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
 }
+.fa_sparkles{
+   background-image: url(../images/sparkles.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1px;
+} 
+.fa_sparkles_red{
+   background-image: url(../images/icon-sparkles-red.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+} 
 
-@media(max-width: 768px){
-    .md-pt-40{
+@media (max-width: 768px) {
+    .md-pt-40 {
         padding-top: 40px;
     }
-    .md-pb-24{
+    .md-pb-24 {
         padding-bottom: 24px;
-
     }
-    .md-pt-40{
+    .md-pt-40 {
         padding-top: 40px;
     }
-    .md-pt-32{
+    .md-pt-32 {
         padding-top: 32px;
     }
-     .fa_iphone{
-         background-size: 18px 18px;
-
-     }
-     .fa_imail{
-         background-size: 18px 18px;
-
-     }
-  }
-  @media(max-width:414px){
-      .ms-pt-0{
-          padding-top: 0;
-      }
-      .ms-pt-20{
-          padding-top: 20px;
-      }
-      .ms-pb-20{
-          padding-bottom: 20px;
-      }
-      .ms-mb-20{
-          margin-bottom: 20px;
-      }
-      .fa_iphone{
-          margin-right: 0;
-      }
-      .fa_imail{
-          margin-right: 0; 
-          padding-bottom: 16px;
-      }
-  }
+    .fa_iphone {
+        background-size: 18px 18px;
+    }
+    .fa_imail {
+        background-size: 18px 18px;
+    }
+}
+@media (max-width: 414px) {
+    .ms-pt-0 {
+        padding-top: 0;
+    }
+    .ms-pt-20 {
+        padding-top: 20px;
+    }
+    .ms-pb-20 {
+        padding-bottom: 20px;
+    }
+    .ms-mb-20 {
+        margin-bottom: 20px;
+    }
+    .fa_iphone {
+        margin-right: 0;
+    }
+    .fa_imail {
+        margin-right: 0;
+        padding-bottom: 16px;
+    }
+}

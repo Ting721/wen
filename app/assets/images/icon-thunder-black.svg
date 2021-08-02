@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="35.2" height="48" viewBox="0 0 35.2 48"><defs><style>.a{fill-rule:evenodd;}</style></defs><path class="a" d="M30.413,25H38.52L19,44.52,23.732,31.4H15.48l7.36-19.2H35.32L30.413,25ZM19.145,34.6H11L20.6,9H39.8L35,21.8H46.2L11,57l8.145-22.4Z" transform="translate(-11 -9)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="44" height="44" fill="#fff"/>
+    <path id="路径_5" data-name="路径 5" d="M17.8,14.667h7.431L7.333,32.56l4.338-12.027H4.107l6.747-17.6h11.44Zm-10.329,8.8H0L8.8,0H26.4L22,11.733H32.267L0,44Z" transform="translate(6.467)" fill-rule="evenodd"/>
+  </g>
+</svg>
