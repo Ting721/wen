@@ -1,0 +1,83 @@
+.borde {
+    border-left: 8px solid #9f1213;
+}
+.container_map {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 204px;
+}
+.borde h2 {
+    margin-left: 14px;
+}
+.maps_chose select {
+    margin: 0px 0px 0px 20px;
+    width: 324px;
+    height: 45px;
+    border: 1px solid #ced4da;
+    padding: 8px 15px;
+    font-size: 1.125rem;
+    color: #495057;
+}
+.maps_chose {
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+}
+.map_group{
+    width: 70%;
+    margin: 0 auto;
+    color: #212529;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.map{
+   
+    margin: 16px 10px;
+
+}
+.map img{
+   width: 350px;
+   height: 224px;  
+   display: block;
+}
+.map_text img{
+    width: 20px;
+    height: 20px;
+    margin-right: 11px;
+}
+.map_text ul {
+    border: 1px solid #00000020;
+     padding: 16px 26px;
+     font-size: 1.25rem;
+   
+}
+.map_text li{
+    display: flex;
+    align-items: center;
+}
+.map_text h4{
+    line-height: 2;
+    border: 1px solid #00000020;
+    padding-left: 26px;
+}
+.map_text{
+   
+    width: 350px;
+    
+}
+.map_button{
+    width: 350px;
+   
+    background-color: #000;
+    color: #fff;
+    font-size: 1.18rem;
+    line-height: 3;
+
+
+}
+.map_button:hover  {
+   background-color: rgba(0, 0, 0, 0.829) ;
+    
+}

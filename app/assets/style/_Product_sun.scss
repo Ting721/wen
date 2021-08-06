@@ -27,13 +27,18 @@
     border-bottom: 8px solid var(--red300);
     box-sizing: border-box;
 }
-.product-menu li :active {
-    color: var(--red300);
+.active  {
+     color: var(--red300);
+}
+.product-menu li :focus {
+  
+   
 }
 .optical-banner img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 296px;
+    
 }
 .banner-img {
     width: calc(100vw / 2);
