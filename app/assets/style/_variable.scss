@@ -52,24 +52,24 @@ p {
     font-size: 1rem;
     font-weight: 200;
 }
-.fs-1{
+.fs-1 {
     font-size: 2.625rem;
 }
-.fs-2{    
-     font-size: 2rem;
-
+.fs-2 {
+    font-size: 2rem;
 }
 
-.ff-R{font-family: var(--font-family-Roboto);
+.ff-R {
+    font-family: var(--font-family-Roboto);
 }
 
-.text-red300{
-    color: var( --red300);
+.text-red300 {
+    color: var(--red300);
 }
-.float-and{
+.float-and {
     float: right;
 }
-.float-start{
+.float-start {
     float: left;
 }
 @media (max-width: 768px) {
@@ -83,13 +83,13 @@ p {
     h3 {
         font-size: 1.25rem;
     }
-    h4{
+    h4 {
         font-size: 1rem;
     }
-    .fs-1{
+    .fs-1 {
         font-size: 2rem;
     }
-    .fs-2{
+    .fs-2 {
         font-size: 1.5rem;
     }
 }
@@ -107,10 +107,10 @@ p {
     h4 {
         font-size: 1.5rem;
     }
-    .fs-1{
+    .fs-1 {
         font-size: 1.25rem;
     }
-    .fs-2{
+    .fs-2 {
         font-size: 1.25rem;
     }
 }

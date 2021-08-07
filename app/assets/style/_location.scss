@@ -25,7 +25,7 @@
     align-items: center;
 }
 .map_group {
-    width: 78%;
+    width: 100%;
     margin: 0 auto;
     color: #212529;
     margin-top: 16px;
@@ -87,13 +87,13 @@
     position: relative;
     text-align: right;
     height: 422px;
-    width: 600px;
+    width: 100%;
 }
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 422px;
-    width: 600px;
+    width: 100%;
 }
 
 .map2 {
@@ -127,10 +127,16 @@
 .map_text2 {
     width: 350px;
 }
+.map_group2 {
+    width: 100%;
+    margin: 0 auto;
+    color: #212529;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 @media (max-width: 948px) {
-    .map_group {
-        width: 77%;
-    }
 }
 @media (max-width: 768px) {
     .map_text h4 {
@@ -138,7 +144,6 @@
     }
     .map_group {
         width: 100%;
-        justify-content: space-evenly;
     }
     .map {
         margin: 16px 9px;
@@ -146,7 +151,7 @@
     .container_map {
         width: auto;
         margin: 0 30px;
-        margin-top: 168px;
+        margin-top: 60px;
     }
     .maps_chose {
         margin-top: 40px;
@@ -195,8 +200,11 @@
     .gmap_canvas {
         width: auto;
     }
-      .map_text2 h4 {
+    .map_text2 h4 {
         line-height: 3;
+    }
+    .map_group2 {
+        flex-direction: column;
     }
 }
 @media (max-width: 500px) {
@@ -278,23 +286,22 @@
     .map_text2 {
         width: 100%;
     }
-    .map_text2  ul{
+    .map_text2 ul {
         font-size: 0.8rem;
     }
-    .map_text2  h4{
+    .map_text2 h4 {
         font-size: 1rem;
     }
-    .map_text ul{
-       font-size: 0.8rem; 
+    .map_text ul {
+        font-size: 0.8rem;
     }
-    .map_text h4{
-      font-size: 1rem; 
+    .map_text h4 {
+        font-size: 1rem;
     }
     .map_button {
-        font-size: 0.8rem; 
+        font-size: 0.8rem;
     }
-    .map_button a{
-       font-size: 0.8rem;  
+    .map_button a {
+        font-size: 0.8rem;
     }
-     
 }
